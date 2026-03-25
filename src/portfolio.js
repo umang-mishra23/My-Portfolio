@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Umang Mishra Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://umangmishra.netlify.app",
   },
 };
 
@@ -70,12 +70,6 @@ const socialMediaLinks = [
     link: "https://x.com/umangmishra509",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/umang.mishra509",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -220,6 +214,14 @@ const competitiveSites = {
       },
       profileLink: "https://www.openbugbounty.org/researchers/UmangMishra/",
     },
+    {
+      siteName: "TryHackMe",
+      iconifyClassname: "simple-icons:tryhackme",
+      style: {
+        color: "red",
+      },
+      profileLink: "https://tryhackme.com/p/Umang.Mishra",
+    },
   ],
 };
 
@@ -353,40 +355,40 @@ const experience = {
 
     // 🔥 Bug Bounty Section (Correctly added)
     {
-      title: "Bug Bounty",
+      title: "Achievements",
       work: true,
       experiences: [
         {
-          title: "Bug Bounty Hunter - Hackerone",
-          company: "Independent",
+          title: "Top 3% on TryHackMe",
+          company: "Tryhackme",
           company_url: "#",
-          logo_path: "hackerone.png", // optional
-          duration: "Dec' 2026 - Present",
-          location: "Remote",
+          logo_path: "tryhackme.png", // optional
+          duration: "",
+          location: "",
           description:
-            "Identified and responsibly disclosed vulnerabilities including IDOR in web applications, contributing to improved access control mechanisms.",
+            "",
           color: "#000000",
         },
         {
-          title: "Bug Bounty Hunter - Bugcrowd",
-          company: "Independent",
+          title: "Sucessfully reported 3 valid bugs",
+          company: "Bugcrowd, Hackerone",
           company_url: "#",
           logo_path: "bugcrowd.png", // optional
-          duration: "Dec' 2026 - Present",
-          location: "Remote",
+          duration: "",
+          location: "",
           description:
-            "Performed manual testing to discover security misconfigurations and input validation issues, strengthening application security posture.",
+            "",
           color: "#000000",
         },
         {
-          title: "Bug Bounty Hunter - OpenBugBounty",
-          company: "Independent",
+          title: "Solve 115+ rooms on TryHackMe",
+          company: "Tryhackme",
           company_url: "#",
-          logo_path: "openbug.png", // optional
-          duration: "Dec' 2026 - Present",
-          location: "Remote",
+          logo_path: "tryhackme.png", // optional
+          duration: "",
+          location: "",
           description:
-            "Reported web vulnerabilities such as XSS through responsible disclosure, demonstrating practical knowledge of OWASP Top 10.",
+            "",
           color: "#000000",
         },
       ],
